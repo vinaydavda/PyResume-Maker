@@ -1,0 +1,51 @@
+list
+========
+
+<div class="container mt-4">
+  <div class="alert alert-dark fs-4 fw-bold py-0" role="alert">
+    Technical Skills:
+  </div>
+  <ul class="list-group list-group-flush custom-list">
+    <li class="list-group-item custom-item"><b>Languages:</b>
+      <big>
+        <span class="badge bg-secondary">
+          <!-- {{ languages }} -->
+          Python3
+        </span>
+        <span class="badge bg-secondary">
+          <!-- {{ languages }} -->
+          Java
+        </span>
+        <span class="badge bg-secondary">
+          <!-- {{ languages }} -->
+          HTML
+        </span>
+      </big>
+    </li>
+    <li class="list-group-item custom-item"><b class="fs-6">Frameworks:</b>
+      <span class="badge bg-secondary fs-6">
+        {{ frameworks }}
+      </span>
+    </li>
+    <li class="list-group-item custom-item"><b>IT Constructs:</b>
+      <span class="badge bg-secondary">
+        {{ itconstructs }}
+      </span>
+    </li>
+    <li class="list-group-item custom-item"><b>DB Language:</b>
+      <span class="badge bg-secondary">
+        {{ dblanguage }}
+      </span>
+    </li>
+    <li class="list-group-item custom-item"><b>Operating Systems:</b>
+      <span class="badge bg-secondary">
+        {{ operatingsystems }}
+      </span>
+    </li>
+    <li class="list-group-item custom-item"><b>Development Tools:</b>
+      <span class="badge bg-secondary">
+        {{ devlopmenttools }}
+      </span>
+    </li>
+  </ul>
+</div>
