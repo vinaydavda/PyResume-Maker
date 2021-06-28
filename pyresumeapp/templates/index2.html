@@ -41,7 +41,18 @@
     <!-- Form Starts -->
 
     <div class='container mt-4'>
-        <form class="row g-3" method="GET" action="/renderresume/" target="_blank">
+        <form class="row g-3" method='GET' action='/renderresume/'>
+
+
+            <!-- Objective -->
+            <legend>
+                <li class="list-group-item list-group-item-success mt-4">Objective</li>
+            </legend>
+
+            <div class="mb-3">
+                <label for="objective" class="form-label">Objective</label>
+                <textarea class="form-control" id="objective" name="objective" rows="3" placeholder="Write your Objective hare..."></textarea>
+            </div>
 
 
             <!-- Basic Details -->
@@ -69,16 +80,6 @@
             <div class="col-md-6">
                 <label for="phone" class="form-label">Phone Number</label>
                 <input type="phone" class="form-control" id="phone" name="phone" placeholder="+91 9876543211">
-            </div>
-
-            <!-- Profile Links -->
-            <div class="col-md-6">
-                <label for="githublink" class="form-label">Github Profile Link</label>
-                <input type="text" class="form-control" id="githublink" name="githublink">
-            </div>
-            <div class="col-md-6">
-                <label for="linkedinlink" class="form-label">Linkedin Profile Link</label>
-                <input type="text" class="form-control" id="linkedinlink" name="linkedinlink">
             </div>
 
 
@@ -159,10 +160,6 @@
                 <label for="devlopmenttools" class="form-label">Development tools</label>
                 <input type="text" class="form-control" id="devlopmenttools" name="devlopmenttools" placeholder="Microsoft Visual Studio,Pycharm">
             </div>
-            <div class="mb-3">
-                <label for="familiarwith" class="form-label">Familiar with</label>
-                <input type="text" class="form-control" id="familiarwith" name="familiarwith" placeholder="C++, Java, Javascript">
-            </div>
 
 
             <!-- Projects -->
@@ -172,7 +169,7 @@
 
             <div class="mb-3">
                 <label for="projects" class="form-label">Projects</label>
-                <textarea class="form-control" id="projects" name="projects" rows="3" placeholder="project1 all information,,,project2 all information ([bold]This is Bold[/bold]) ([link]This is a Link[/link])"></textarea>
+                <textarea class="form-control" id="projects" name="projects" rows="3" placeholder="project1 all information,,,project2 all information ([bold]This is Bold[/bold])"></textarea>
             </div>
 
 
@@ -183,18 +180,22 @@
 
             <div class="mb-3">
                 <label for="portfoliolinks" class="form-label">Portfolio Links</label>
-                <textarea class="form-control" id="portfoliolinks" name="portfoliolinks" rows="3" placeholder="Hackerrank,[link]https://www.hackerrank.com/vinaydavda7[/link],,,Other Link,[link]This is a Link[/link]"></textarea>
+                <textarea class="form-control" id="portfoliolinks" name="portfoliolinks" rows="3" placeholder="Github,https://github.com/vinaydavda,,,HackerRank,https://www.hackerrank.com/vinaydavda7"></textarea>
             </div>
 
 
-            <!-- Other Details -->
+            <!-- Hobbies -->
             <legend>
                 <li class="list-group-item list-group-item-success mt-4">Extra-Curricular Activities and Achievements:</li>
             </legend>
 
             <div class="mb-3">
                 <label for="otherdetails" class="form-label">Extra-Curricular Activities and Achievements:</label>
-                <textarea class="form-control" id="otherdetails" name="otherdetails" rows="3" placeholder="details 1,,,[bold]Details 2[/bold],,,details 3 ([bold]This is Bold[/bold])"></textarea>
+                <textarea class="form-control" id="otherdetails" name="otherdetails" rows="3" placeholder="details 1,,,Details 2,,,details 3 ([bold]This is Bold[/bold])"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="hobbies" class="form-label">Hobbies</label>
+                <textarea class="form-control" id="hobbies" name="hobbies" rows="3" placeholder="Sports,Programming,Reading"></textarea>
             </div>
 
             <div class="col-12">
